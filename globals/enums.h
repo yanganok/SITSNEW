@@ -434,6 +434,12 @@ namespace CommunicateCoreUnderlying {
         //DE_functionTP_ConfigurationOp = 0x23,   	//功能模块配置操作                       0x23
     };
 
+    enum class ValveDeviceId{
+        VALVE1=1,                //转动到位置n（n=1...10）
+        VALVE2=2,                //获得阀当前位置
+        All = 3,
+        NONE = 0
+    };
     /**
      * @brief The ValveControlWord enum 分配阀控制字
      */

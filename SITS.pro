@@ -97,6 +97,7 @@ SOURCES += \
         Commands/systemled_command.cpp \
         Commands/timegetmsec_command.cpp \
         Commands/timesetclock_command.cpp \
+        Commands/valvegetposition_command.cpp \
         Commands/valvewrite_command.cpp \
         Commands/xy_command.cpp \
         Commands/xyemergencystop_commmand.cpp \
@@ -339,6 +340,7 @@ HEADERS += \
     Commands/systemled_command.h \
     Commands/timegetmsec_command.h \
     Commands/timesetclock_command.h \
+    Commands/valvegetposition_command.h \
     Commands/valvewrite_command.h \
     Commands/xy_command.h \
     Commands/xyemergencystop_commmand.h \

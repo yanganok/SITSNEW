@@ -31,7 +31,7 @@ bool PumpInit_Command::packageToResponse(QByteArray &arr)
     _curPos = 0;
     if(*(arr.data() + 9) == (quint8)CommunicateCoreUnderlying::SyringPumpControlWord::CW_SYRINGE_INIT)
     {
-        CommunicateCoreUnderlying::SyringPumpStatusWord status = static_cast<CommunicateCoreUnderlying::SyringPumpStatusWord>(BytesToAny::toQUint32((quint8 *)arr.data() + 11));
+        CommunicateCoreUnderlying::SyringPumpStatusWord status = static_cast<CommunicateCoreUnderlying::SyringPumpStatusWord>(BytesToAny::toQUint16((quint8 *)arr.data() + 11));
         CommunicateCoreUnderlying::SyringPumpId deviceId = static_cast<CommunicateCoreUnderlying::SyringPumpId>(*((quint8 *)arr.data() + 8));
         std::shared_ptr<PumpInit_Command_Response> response(new PumpInit_Command_Response(code, deviceId, status, _curPos));
         emit translateResponseToOperator(response);
