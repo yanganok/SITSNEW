@@ -1,0 +1,55 @@
+#include <logging/nullappender.h>
+#include <logging/thread/syncprims-pub-impl.h>
+
+
+namespace logging
+{
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	// NullAppender ctors and dtor
+	///////////////////////////////////////////////////////////////////////////////
+
+	NullAppender::NullAppender()
+	{
+	}
+
+
+	NullAppender::NullAppender(const helpers::Properties& properties)
+		: Appender(properties)
+	{
+	}
+
+
+
+	NullAppender::~NullAppender()
+	{
+		destructorImpl();
+	}
+
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	// NullAppender public methods
+	///////////////////////////////////////////////////////////////////////////////
+
+	void
+		NullAppender::close()
+	{
+	}
+
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	// NullAppender protected methods
+	///////////////////////////////////////////////////////////////////////////////
+
+	// This method does not need to be locked since it is called by
+	// doAppend() which performs the locking
+	void
+		NullAppender::append(const spi::InternalLoggingEvent&)
+	{
+	}
+
+
+} // namespace logging

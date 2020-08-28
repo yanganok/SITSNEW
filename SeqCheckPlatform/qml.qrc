@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CheckPlatform.qml</file>
+        <file>MotionPlatform.qml</file>
+        <file>LiquidRoadModule.qml</file>
+        <file>ImageModule.qml</file>
+        <file>FlowCellModule.qml</file>
+        <file>SensorModule.qml</file>
+        <file>PeripheralEquipment.qml</file>
+    </qresource>
+</RCC>

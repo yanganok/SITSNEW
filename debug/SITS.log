@@ -1,0 +1,20 @@
+﻿  grayimage.cpp
+D:\gitlocal\NMS\Tools\grayimage.cpp(23,83): warning C4100: “imageFormat”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(44,12): warning C4189: “imgptr”: 局部变量已初始化但不引用
+D:\gitlocal\NMS\Tools\grayimage.cpp(60,64): warning C4100: “transform”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(60,39): warning C4100: “image”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(105,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(179,91): warning C4100: “compression”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(179,74): warning C4100: “imageFormat”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(179,42): warning C4100: “path”: 未引用的形参
+D:\gitlocal\NMS\Tools\grayimage.cpp(247,23): warning C4101: “ex”: 未引用的局部变量
+D:\gitlocal\NMS\Tools\grayimage.cpp(258,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(259,26): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(302,23): warning C4101: “ex”: 未引用的局部变量
+D:\gitlocal\NMS\Tools\grayimage.cpp(317,30): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(319,34): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(330,32): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(332,36): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(416,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitlocal\NMS\Tools\grayimage.cpp(438,23): warning C4101: “ex”: 未引用的局部变量
+  SITS.vcxproj -> D:\gitlocal\NMS\debug\SITS.exe

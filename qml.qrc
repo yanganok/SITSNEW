@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainMenuButton.qml</file>
+        <file>BubbleMeasureFlightTimeInterface.qml</file>
+        <file>QmlTableView.qml</file>
+        <file>DebugUI/DebugPump.qml</file>
+        <file>Controls/YAButton.qml</file>
+        <file>DebugUI/YAButton.qml</file>
+        <file>DebugUI/YATableCellItem.qml</file>
+        <file>DebugUI/TableHeaderItem.qml</file>
+        <file>DebugUI/TableCellTextItem.qml</file>
+        <file>DebugUI/TableCellTextInputItem.qml</file>
+        <file>DebugUI/DebugPressureInspection.qml</file>
+        <file>DebugUI/RadioButtonTest.qml</file>
+        <file>DebugUI/DebugPressureLeakInspection.qml</file>
+    </qresource>
+</RCC>

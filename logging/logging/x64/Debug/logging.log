@@ -1,0 +1,70 @@
+﻿  appender.cxx
+  appenderattachableimpl.cxx
+  asyncappender.cxx
+  callbackappender.cxx
+  clogger.cxx
+  configurator.cxx
+  connectorthread.cxx
+  consoleappender.cxx
+  cygwin-win32.cxx
+  env.cxx
+  factory.cxx
+  fileappender.cxx
+  fileinfo.cxx
+  filter.cxx
+  global-init.cxx
+  hierarchy.cxx
+  hierarchylocker.cxx
+  layout.cxx
+  lockfile.cxx
+  log4judpappender.cxx
+  logger.cxx
+  loggerimpl.cxx
+  loggingevent.cxx
+  loggingmacros.cxx
+  loglevel.cxx
+  loglog.cxx
+  mdc.cxx
+  ndc.cxx
+  nteventlogappender.cxx
+  nullappender.cxx
+  objectregistry.cxx
+  patternlayout.cxx
+  pointer.cxx
+  property.cxx
+  queue.cxx
+  rootlogger.cxx
+  snprintf.cxx
+  socket-unix.cxx
+  socket-win32.cxx
+  socket.cxx
+  socketappender.cxx
+  socketbuffer.cxx
+  stringhelper-clocale.cxx
+  stringhelper-cxxlocale.cxx
+  stringhelper-iconv.cxx
+  stringhelper.cxx
+  syncprims.cxx
+  syslogappender.cxx
+  threads.cxx
+  timehelper.cxx
+  tls.cxx
+  version.cxx
+  win32consoleappender.cxx
+  win32debugappender.cxx
+    正在创建库 C:\Users\yangan\Documents\WeChat Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\x64\Debug\logging.lib 和对象 C:\Users\yangan\Documents\WeChat Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\x64\Debug\logging.exp
+  logging.vcxproj -> C:\Users\yangan\Documents\WeChat Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\x64\Debug\logging.dll
+  'Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\packages\' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 命令“
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: set FromDir=C:\Users\yangan\Documents\WeChat Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\x64\Debug\
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: set ToDir=C:\Users\yangan\Documents\WeChat Files\wxid_zbkuf3cov1zt21\FileStorage\File\2020-08\logging-001-0812-2234\logging\packages\
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: if exist %ToDir% (rmdir %ToDir% /S /Q )
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: if not exist %ToDir% (mkdir %ToDir% )
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: if exist %ToDir% (xcopy %FromDir%logging.* %ToDir% /S /E /Y /I /C )
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd”已退出，代码为 9009。
