@@ -98,7 +98,9 @@
 #include "Responses/xymoveto_command_response.h"
 #include "Responses/xyemergencystop_commmand_response.h"
 #include "Responses/xyhand_command_response.h"
-//#include "Responses/valvegetposition_command_response.h"
+#include "Responses/valvegetposition_command_response.h"
+#include "Responses/valveinit_command_response.h"
+#include "Responses/valvemoveposition_command_response.h"
 
 const QString GlobalPath::localFilePath = QDir::currentPath();
 const QString IniFile::IniFileName = GlobalPath::localFilePath + "/config/system.ini";
@@ -206,7 +208,9 @@ void registerType()
     qRegisterMetaType<XYEmergencyStop_Commmand_Response>("XYEmergencyStop_Commmand_Response");
     qRegisterMetaType<XYMoveTo_Command_Response>("XYMoveTo_Command_Response");
     qRegisterMetaType<XYHand_Command_Response>("XYHand_Command_Response");
-//    qRegisterMetaType<ValveGetPosition_Command_Response>("ValveGetPosition_Command_Response");
+    qRegisterMetaType<ValveGetPosition_Command_Response>("ValveGetPosition_Command_Response");
+    qRegisterMetaType<ValveInit_Command_Response>("ValveInit_Command_Response");
+    qRegisterMetaType<ValveMovePosition_Command_Response>("ValveMovePosition_Command_Response");
 
     qRegisterMetaType<TestEnum>("TestEnum");
 }

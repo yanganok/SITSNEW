@@ -98,6 +98,8 @@ SOURCES += \
         Commands/timegetmsec_command.cpp \
         Commands/timesetclock_command.cpp \
         Commands/valvegetposition_command.cpp \
+        Commands/valveinit_command.cpp \
+        Commands/valvemoveposition_command.cpp \
         Commands/valvewrite_command.cpp \
         Commands/xy_command.cpp \
         Commands/xyemergencystop_commmand.cpp \
@@ -205,6 +207,9 @@ SOURCES += \
         Responses/timegetmsec_command_response.cpp \
         Responses/timesetclock_command_response.cpp \
         Responses/valvedata_command_response.cpp \
+        Responses/valvegetposition_command_response.cpp \
+        Responses/valveinit_command_response.cpp \
+        Responses/valvemoveposition_command_response.cpp \
         Responses/valvewrite_command_response.cpp \
         Responses/xyemergencystop_commmand_response.cpp \
         Responses/xyenablerangecheck_command_response.cpp \
@@ -341,6 +346,8 @@ HEADERS += \
     Commands/timegetmsec_command.h \
     Commands/timesetclock_command.h \
     Commands/valvegetposition_command.h \
+    Commands/valveinit_command.h \
+    Commands/valvemoveposition_command.h \
     Commands/valvewrite_command.h \
     Commands/xy_command.h \
     Commands/xyemergencystop_commmand.h \
@@ -448,6 +455,9 @@ HEADERS += \
     Responses/timegetmsec_command_response.h \
     Responses/timesetclock_command_response.h \
     Responses/valvedata_command_response.h \
+    Responses/valvegetposition_command_response.h \
+    Responses/valveinit_command_response.h \
+    Responses/valvemoveposition_command_response.h \
     Responses/valvewrite_command_response.h \
     Responses/xyemergencystop_commmand_response.h \
     Responses/xyenablerangecheck_command_response.h \
